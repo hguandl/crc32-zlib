@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 		if (crc == 0) {
 			fprintf(stderr, "%s: Is a blank file or directory\n", argv[t]);
 		} else {
-			printf("%lx\t%s\n", crc, argv[t]);
+			printf("%08lx\t%s\n", crc, argv[t]);
 		}
 	}
 	
