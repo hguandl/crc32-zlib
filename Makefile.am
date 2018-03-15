@@ -1,4 +1,5 @@
 bin_PROGRAMS=crc32
 crc32_SOURCES=crc32.c
+crc32_CFLAGS=-std=c99
 LIBS=-lz
 ACLOCAL_AMFLAGS = -I m4
